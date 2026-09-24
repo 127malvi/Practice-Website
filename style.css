@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(255, 182, 193);
+    color: black;
+}
+#val{
+    background-color: rgb(255, 182, 19);
+    color: darkblue;
+    font-family: "Times New Roman", serif;
+    font-size: large;
+    border: medium aqua;
+    margin: 30px;
+    padding: 20px;
+}
+.facts{
+    background-color: rgb(25, 68, 193);
+    color: aquamarine;
+}
+a[href*="www.frhsd.com"]{
+    background-color: limegreen;
+}
+
+ul>li:first-child{
+    color: fuchsia;
+}
+
+a:visited{
+    color: beige;
+}
+
+li:hover{
+    background-color: navy;
+}
+
+div {
+    li{
+        color: red;
+    }
+}
+
+li+li{
+    color: darkviolet;
+}
