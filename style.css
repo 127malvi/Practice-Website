@@ -40,3 +40,28 @@ div {
 li+li{
     color: darkviolet;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img & link {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 12px;
+    img{
+        grid-color: span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+    p {
+        row: span 2;
+    }
+    a {
+        row: span 1;
+    }
+}
