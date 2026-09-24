@@ -59,9 +59,9 @@ li+li{
         width: 100%;
     }
     p {
-        row: span 2;
+        grid-row: span 2;
     }
     a {
-        row: span 1;
+        grid-row: span 1;
     }
 }
