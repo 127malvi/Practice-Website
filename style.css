@@ -47,7 +47,7 @@ li+li{
     align-items: center;
 }
 
-#img & link {
+#img&link {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
