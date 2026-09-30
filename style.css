@@ -47,21 +47,23 @@ li+li{
     align-items: center;
 }
 
-#img&link {
+#wyw {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     gap: 12px;
     img{
-        grid-color: span 3;
+        grid-column: span 3;
         grid-row: span 3;
         height: 100%;
         width: 100%;
     }
     p {
         grid-row: span 2;
+        grid-column: span 2;
     }
     a {
         grid-row: span 1;
+        grid-column: span 1;
     }
 }

@@ -5,7 +5,7 @@
   <title>First Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload = "loading()">
 <P>Hello World</P>
 <div>
 <ol>
@@ -20,7 +20,7 @@
   <li class="facts">I don't play video games</li>
 </ul>
 </div>
-<div id="img&link">
+<div id="wyw">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7tWQc_5yeQmBAMZY7ZSY_OGen87LHDr3WlywEN5GLrA&s=10">
   <p>
     The young sailor leaped into the skiff and sat down in the stern, giving orders to be rowed to the Canebière. Smiling, the shipowner watched him until he saw him jump ashore, after which he was immediately swallowed up in the crowd. When he turned around, Morrel saw Danglars standing behind him, also following the young sailor's movements. But there was a great difference in the expression of the two men as they both watched Edmond Dantès.
@@ -28,5 +28,10 @@
   <a href="">internal link</a>
   <a href="www.frhsd.com">external link</a>
 </div>
+<input id = "textbox", type = "text">
+<button onclick="clicked()"> Button </button>
+<button id="localbutton", onclick="local()"> 0 </button>
+<button id="sessionbutton", onclick="session()"> 0 </button>
+<script src="index.js"></script>
 </body>
 </html>
