@@ -2,25 +2,21 @@ body{
     background-color: rgb(255, 182, 193);
     color: black;
 }
-#val{
-    background-color: rgb(255, 182, 19);
-    color: darkblue;
-    font-family: "Times New Roman", serif;
-    font-size: large;
-    border: medium aqua;
-    margin: 30px;
-    padding: 20px;
+
+.top:hover{
+    color: transparent;
 }
+
+.top:hover::after{
+    content: attr(title)
+}
+
 .facts{
     background-color: rgb(25, 68, 193);
     color: aquamarine;
 }
-a[href*="www.frhsd.com"]{
+a[href*="https://frhsd.com"]{
     background-color: limegreen;
-}
-
-ul>li:first-child{
-    color: fuchsia;
 }
 
 a:visited{
@@ -31,11 +27,6 @@ li:hover{
     background-color: navy;
 }
 
-div {
-    li{
-        color: red;
-    }
-}
 
 li+li{
     color: darkviolet;
@@ -47,7 +38,7 @@ li+li{
     align-items: center;
 }
 
-#wyw {
+#grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
